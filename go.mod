@@ -1,4 +1,4 @@
-module audio-hackathon/start
+module audio-hackathon/visualizer
 
 go 1.25.5
 
