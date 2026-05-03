@@ -1,4 +1,6 @@
-# Hive audio hachathon March 2026: Sound visualizer
+# Hive audio hachathon March 2026: Sound visualizer in Go
+<p align="center"><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm9obWtjNjgxdGlnb3ZvbHloaWdzNDBpYjhzZTB4Zmt2bzI4cnp3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M5Uh9rhGMkhIquIM05/giphy.gif" alt="visualizer gif" width="80%" height="auto" /></p>
+
 This project was coded during one weekend.
 ## Description
 This audio visualizer consists of four different visualizers that
@@ -13,6 +15,8 @@ distance from the center of the circle.
 - Linux (developed on Ubuntu 24.04.1)
 - Go (developed with 1.25.5)
 - Portaudio (19.6.0-1.2)
+
+The graphics are drawn using raylib, which is used as a Go package.
 ## Installation & running
 To run without producing a named executable:
 ```bash
